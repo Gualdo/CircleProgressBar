@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45ED595E2192CBFB008E6E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ED595D2192CBFB008E6E71 /* AppDelegate.swift */; };
+		45ED59602192CBFB008E6E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ED595F2192CBFB008E6E71 /* ViewController.swift */; };
+		45ED59632192CBFB008E6E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45ED59612192CBFB008E6E71 /* Main.storyboard */; };
+		45ED59652192CBFD008E6E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45ED59642192CBFD008E6E71 /* Assets.xcassets */; };
+		45ED59682192CBFD008E6E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45ED59662192CBFD008E6E71 /* LaunchScreen.storyboard */; };
+		45ED59732192CBFD008E6E71 /* CircleProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ED59722192CBFD008E6E71 /* CircleProgressBarTests.swift */; };
+		45ED597E2192CBFD008E6E71 /* CircleProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ED597D2192CBFD008E6E71 /* CircleProgressBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45ED596F2192CBFD008E6E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45ED59522192CBFB008E6E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45ED59592192CBFB008E6E71;
+			remoteInfo = CircleProgressBar;
+		};
+		45ED597A2192CBFD008E6E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45ED59522192CBFB008E6E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45ED59592192CBFB008E6E71;
+			remoteInfo = CircleProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45ED595A2192CBFB008E6E71 /* CircleProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45ED595D2192CBFB008E6E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45ED595F2192CBFB008E6E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45ED59622192CBFB008E6E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45ED59642192CBFD008E6E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45ED59672192CBFD008E6E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45ED59692192CBFD008E6E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45ED596E2192CBFD008E6E71 /* CircleProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45ED59722192CBFD008E6E71 /* CircleProgressBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBarTests.swift; sourceTree = "<group>"; };
+		45ED59742192CBFD008E6E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45ED59792192CBFD008E6E71 /* CircleProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45ED597D2192CBFD008E6E71 /* CircleProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBarUITests.swift; sourceTree = "<group>"; };
+		45ED597F2192CBFD008E6E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45ED59572192CBFB008E6E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ED596B2192CBFD008E6E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ED59762192CBFD008E6E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45ED59512192CBFB008E6E71 = {
+			isa = PBXGroup;
+			children = (
+				45ED595C2192CBFB008E6E71 /* CircleProgressBar */,
+				45ED59712192CBFD008E6E71 /* CircleProgressBarTests */,
+				45ED597C2192CBFD008E6E71 /* CircleProgressBarUITests */,
+				45ED595B2192CBFB008E6E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45ED595B2192CBFB008E6E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45ED595A2192CBFB008E6E71 /* CircleProgressBar.app */,
+				45ED596E2192CBFD008E6E71 /* CircleProgressBarTests.xctest */,
+				45ED59792192CBFD008E6E71 /* CircleProgressBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45ED595C2192CBFB008E6E71 /* CircleProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				45ED595D2192CBFB008E6E71 /* AppDelegate.swift */,
+				45ED595F2192CBFB008E6E71 /* ViewController.swift */,
+				45ED59612192CBFB008E6E71 /* Main.storyboard */,
+				45ED59642192CBFD008E6E71 /* Assets.xcassets */,
+				45ED59662192CBFD008E6E71 /* LaunchScreen.storyboard */,
+				45ED59692192CBFD008E6E71 /* Info.plist */,
+			);
+			path = CircleProgressBar;
+			sourceTree = "<group>";
+		};
+		45ED59712192CBFD008E6E71 /* CircleProgressBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				45ED59722192CBFD008E6E71 /* CircleProgressBarTests.swift */,
+				45ED59742192CBFD008E6E71 /* Info.plist */,
+			);
+			path = CircleProgressBarTests;
+			sourceTree = "<group>";
+		};
+		45ED597C2192CBFD008E6E71 /* CircleProgressBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45ED597D2192CBFD008E6E71 /* CircleProgressBarUITests.swift */,
+				45ED597F2192CBFD008E6E71 /* Info.plist */,
+			);
+			path = CircleProgressBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45ED59592192CBFB008E6E71 /* CircleProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45ED59822192CBFD008E6E71 /* Build configuration list for PBXNativeTarget "CircleProgressBar" */;
+			buildPhases = (
+				45ED59562192CBFB008E6E71 /* Sources */,
+				45ED59572192CBFB008E6E71 /* Frameworks */,
+				45ED59582192CBFB008E6E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressBar;
+			productName = CircleProgressBar;
+			productReference = 45ED595A2192CBFB008E6E71 /* CircleProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45ED596D2192CBFD008E6E71 /* CircleProgressBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45ED59852192CBFD008E6E71 /* Build configuration list for PBXNativeTarget "CircleProgressBarTests" */;
+			buildPhases = (
+				45ED596A2192CBFD008E6E71 /* Sources */,
+				45ED596B2192CBFD008E6E71 /* Frameworks */,
+				45ED596C2192CBFD008E6E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45ED59702192CBFD008E6E71 /* PBXTargetDependency */,
+			);
+			name = CircleProgressBarTests;
+			productName = CircleProgressBarTests;
+			productReference = 45ED596E2192CBFD008E6E71 /* CircleProgressBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45ED59782192CBFD008E6E71 /* CircleProgressBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45ED59882192CBFD008E6E71 /* Build configuration list for PBXNativeTarget "CircleProgressBarUITests" */;
+			buildPhases = (
+				45ED59752192CBFD008E6E71 /* Sources */,
+				45ED59762192CBFD008E6E71 /* Frameworks */,
+				45ED59772192CBFD008E6E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45ED597B2192CBFD008E6E71 /* PBXTargetDependency */,
+			);
+			name = CircleProgressBarUITests;
+			productName = CircleProgressBarUITests;
+			productReference = 45ED59792192CBFD008E6E71 /* CircleProgressBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45ED59522192CBFB008E6E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "De La Cruz, Eduardo";
+				TargetAttributes = {
+					45ED59592192CBFB008E6E71 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					45ED596D2192CBFD008E6E71 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 45ED59592192CBFB008E6E71;
+					};
+					45ED59782192CBFD008E6E71 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 45ED59592192CBFB008E6E71;
+					};
+				};
+			};
+			buildConfigurationList = 45ED59552192CBFB008E6E71 /* Build configuration list for PBXProject "CircleProgressBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45ED59512192CBFB008E6E71;
+			productRefGroup = 45ED595B2192CBFB008E6E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45ED59592192CBFB008E6E71 /* CircleProgressBar */,
+				45ED596D2192CBFD008E6E71 /* CircleProgressBarTests */,
+				45ED59782192CBFD008E6E71 /* CircleProgressBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45ED59582192CBFB008E6E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ED59682192CBFD008E6E71 /* LaunchScreen.storyboard in Resources */,
+				45ED59652192CBFD008E6E71 /* Assets.xcassets in Resources */,
+				45ED59632192CBFB008E6E71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ED596C2192CBFD008E6E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ED59772192CBFD008E6E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45ED59562192CBFB008E6E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ED59602192CBFB008E6E71 /* ViewController.swift in Sources */,
+				45ED595E2192CBFB008E6E71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ED596A2192CBFD008E6E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ED59732192CBFD008E6E71 /* CircleProgressBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ED59752192CBFD008E6E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ED597E2192CBFD008E6E71 /* CircleProgressBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45ED59702192CBFD008E6E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45ED59592192CBFB008E6E71 /* CircleProgressBar */;
+			targetProxy = 45ED596F2192CBFD008E6E71 /* PBXContainerItemProxy */;
+		};
+		45ED597B2192CBFD008E6E71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45ED59592192CBFB008E6E71 /* CircleProgressBar */;
+			targetProxy = 45ED597A2192CBFD008E6E71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45ED59612192CBFB008E6E71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45ED59622192CBFB008E6E71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45ED59662192CBFD008E6E71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45ED59672192CBFD008E6E71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45ED59802192CBFD008E6E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45ED59812192CBFD008E6E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45ED59832192CBFD008E6E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63JNZL9NHF;
+				INFOPLIST_FILE = CircleProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardodelacruz.CircleProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45ED59842192CBFD008E6E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63JNZL9NHF;
+				INFOPLIST_FILE = CircleProgressBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardodelacruz.CircleProgressBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45ED59862192CBFD008E6E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63JNZL9NHF;
+				INFOPLIST_FILE = CircleProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardodelacruz.CircleProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleProgressBar.app/CircleProgressBar";
+			};
+			name = Debug;
+		};
+		45ED59872192CBFD008E6E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63JNZL9NHF;
+				INFOPLIST_FILE = CircleProgressBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardodelacruz.CircleProgressBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleProgressBar.app/CircleProgressBar";
+			};
+			name = Release;
+		};
+		45ED59892192CBFD008E6E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63JNZL9NHF;
+				INFOPLIST_FILE = CircleProgressBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardodelacruz.CircleProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleProgressBar;
+			};
+			name = Debug;
+		};
+		45ED598A2192CBFD008E6E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63JNZL9NHF;
+				INFOPLIST_FILE = CircleProgressBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eduardodelacruz.CircleProgressBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleProgressBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45ED59552192CBFB008E6E71 /* Build configuration list for PBXProject "CircleProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ED59802192CBFD008E6E71 /* Debug */,
+				45ED59812192CBFD008E6E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45ED59822192CBFD008E6E71 /* Build configuration list for PBXNativeTarget "CircleProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ED59832192CBFD008E6E71 /* Debug */,
+				45ED59842192CBFD008E6E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45ED59852192CBFD008E6E71 /* Build configuration list for PBXNativeTarget "CircleProgressBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ED59862192CBFD008E6E71 /* Debug */,
+				45ED59872192CBFD008E6E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45ED59882192CBFD008E6E71 /* Build configuration list for PBXNativeTarget "CircleProgressBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ED59892192CBFD008E6E71 /* Debug */,
+				45ED598A2192CBFD008E6E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45ED59522192CBFB008E6E71 /* Project object */;
+}
