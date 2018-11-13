@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45E42858219328F900E3A46C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E42857219328F900E3A46C /* Extensions.swift */; };
 		45ED595E2192CBFB008E6E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ED595D2192CBFB008E6E71 /* AppDelegate.swift */; };
 		45ED59602192CBFB008E6E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ED595F2192CBFB008E6E71 /* ViewController.swift */; };
 		45ED59632192CBFB008E6E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45ED59612192CBFB008E6E71 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45E42857219328F900E3A46C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		45ED595A2192CBFB008E6E71 /* CircleProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45ED595D2192CBFB008E6E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45ED595F2192CBFB008E6E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				45ED595D2192CBFB008E6E71 /* AppDelegate.swift */,
 				45ED595F2192CBFB008E6E71 /* ViewController.swift */,
+				45E42857219328F900E3A46C /* Extensions.swift */,
 				45ED59612192CBFB008E6E71 /* Main.storyboard */,
 				45ED59642192CBFD008E6E71 /* Assets.xcassets */,
 				45ED59662192CBFD008E6E71 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45ED59602192CBFB008E6E71 /* ViewController.swift in Sources */,
+				45E42858219328F900E3A46C /* Extensions.swift in Sources */,
 				45ED595E2192CBFB008E6E71 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
